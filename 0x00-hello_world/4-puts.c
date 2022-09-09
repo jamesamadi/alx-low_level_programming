@@ -1,10 +1,10 @@
 # include <stdio.h>
-/*
- * Entry point
- * main-prints the phrase programming is like building a multiliqual
+/**
+ * main - prints the phrase programming is like building a multiligual
+ * Return: 0 if exited properly, non-zero otherwise
 */
 int main(void)
 {
-	puts("\"Programming is like building a multilinqual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }

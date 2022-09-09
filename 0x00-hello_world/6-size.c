@@ -1,5 +1,8 @@
 # include <stdio.h>
-/* Entry point */
+/**
+ *main - prints the size
+ *Return: 0 if exited properly Entry point
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
