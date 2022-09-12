@@ -9,7 +9,7 @@
 int main(void)
 {
 
-	char c, b, a, d;
+	int c, b, a, d;
 
 	for (c = 48; c <= 57; c++)
 	{
