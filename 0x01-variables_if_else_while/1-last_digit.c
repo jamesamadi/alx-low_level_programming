@@ -1,23 +1,25 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* entry point
- *main - code prints things
- *Return: 0 
-*/
+/**
+ *main - Code prints things
+ *
+ *Return: 0 after completing loop
+ */
 int main(void)
 {
 
 	int n;
-		srand(time(0));
+	int m;
 
-			n = rand() - RAND_MAX / 2;
-
-			if (n > 0)
-				printf ("%d n is positive\n", n );
-			else if (n==0)
-				printf ("%d is zero\n", n );
-			else
-				printf ("%d is negative\n", n );
-
-				return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	m = n % 10;
+	if (m > 5)
+		printf("last digit of %d is %d and is greater than 5\n", n, m);
+	else if (m == 0)
+		printf("last digit of %d is %d and is zero\n", n, m);
+	else
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, m);
+	return (0);
 }
