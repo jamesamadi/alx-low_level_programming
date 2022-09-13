@@ -1,5 +1,5 @@
 #ifndef main
-#define ma:u
+#define main
 int _putchar(char c);
 
 #endif
