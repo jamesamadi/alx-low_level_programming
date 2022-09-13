@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
  * main - writes some _putchar
  *
  * Decription:  prints _printchar
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
+
 int main(void)
 {
 	_putchar('_');
