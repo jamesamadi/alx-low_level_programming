@@ -2,6 +2,8 @@
 /**
  * main - writes some _putchar
  *
+ * Decription:  prints _printchar
+ *
  * return: 0 (success)
  */
 int main(void)
