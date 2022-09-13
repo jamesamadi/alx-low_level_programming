@@ -4,6 +4,7 @@
  *
  * return: 0 if true
  */
+int main ()
 {
 	_putchar();
 	return (0);
