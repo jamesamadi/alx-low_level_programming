@@ -4,15 +4,13 @@
  * _islower - prints alphabet 10 times
  *
  * Description: Make a while loop'
- *
+ * @c: ascii value to be tested
  * Return: void
  */
 
-int _islower(void);
+int _islower(int c);
 {
-	int c;
-
-	for (c >= 'a'; c <= 'z';)
+	for (c = 'a' && c <= 'z')
 	{
 		return (1);
 	}
