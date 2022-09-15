@@ -11,14 +11,12 @@
 int print_to_98(int n)
 {
 	int i;
-	int t;
 
 	if (n < 98)
 	{
 		for (i = n; i <= 98; i++)
 		{
 			_putchar('0' + i);
-			t = '0' + i;
 			if (i != 98)
 			{
 				_putchar(',');
@@ -42,5 +40,5 @@ int print_to_98(int n)
 				_putchar('\n');
 		}
 	}
-	return (t);
+	return (n);
 }
