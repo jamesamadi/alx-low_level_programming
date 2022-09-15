@@ -17,6 +17,7 @@ void print_to_98(int n)
 		for (i = n; i <= 98; i++)
 		{
 			_putchar('0' + i);
+			t = '0' + i;
 			if (i != 98)
 			{
 				_putchar(',');
@@ -40,5 +41,5 @@ void print_to_98(int n)
 				_putchar('\n');
 		}
 	}
-	return (0);
+	return (t);
 }
