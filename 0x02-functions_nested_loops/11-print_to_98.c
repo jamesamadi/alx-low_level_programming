@@ -8,7 +8,7 @@
  * Return: 0 (success)
  */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	int i;
 
