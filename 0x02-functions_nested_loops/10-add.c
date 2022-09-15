@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - writes some _putchar
+ * add - writes some _putchar
  *
  * Decription:  prints _printchar
  * @a: interger to be added
