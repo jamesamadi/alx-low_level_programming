@@ -7,17 +7,14 @@
  * @n: integer numbers
  * Return: void
  */
-
 void print_times_table(int n)
 {
 	int x, y, m, p;
 
-	if (n >= 1 && n <= 15)
+	if (n > 0 && n < 16)
 	{
 		for (x = 0; x <= n; ++x)
 		{
-			_putchar('0');
-			_putchar(',');
 			for (y = 1; y <= n; ++y)
 			{
 				m = x * y;
@@ -50,4 +47,6 @@ void print_times_table(int n)
 			}
 		}
 	}
+	else if (n == 0)
+		_putchar('0');
 }
