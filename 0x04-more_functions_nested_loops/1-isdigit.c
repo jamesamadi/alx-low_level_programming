@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isupper - return a valur for upper case
+ * _isdigit - return a valur for upper case
  * @c: defines c as some integer
  * Return: returns 1 for success
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c <= 0 || c > 0)
 	{
 		return (1);
 	}
