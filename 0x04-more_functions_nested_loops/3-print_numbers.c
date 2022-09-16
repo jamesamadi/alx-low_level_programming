@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * _isdigit - return a valur for upper case
- * @c: defines c as some integer
+ * print_numbers - return a valur for upper case
+ *
  * Return: returns 1 for success
  */
 
-int _isdigit(int c)
+void print_numbers(void)
 {
-	if (c >= '0' && c <= '9')
+	char a = '0';
+
+	while (a <= 9)
 	{
-		return (1);
+		_putchar(a + '0');
+		a++;
 	}
-	else
-		return (0);
+	_putchar('\n');
 }
