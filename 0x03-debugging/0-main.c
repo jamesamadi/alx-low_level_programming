@@ -2,7 +2,6 @@
 
 /**
  * main - test some files
- *
  * Return: void
  */
 
