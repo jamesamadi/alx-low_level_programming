@@ -42,8 +42,6 @@ void print_times_table(int n)
 					_putchar('0' + p % 10);
 					_putchar('0' + m % 10);
 				}
-			if (y < n)
-				_putchar(',');
 			}
 			_putchar('\n');
 		}
