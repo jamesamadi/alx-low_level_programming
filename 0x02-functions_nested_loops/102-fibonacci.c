@@ -18,17 +18,17 @@ int main(void)
 	{
 		if (a == 0)
 		{
-			printf("%ld, ", b);
+			printf("%ld", b);
 		}
 		else if (a == 1)
 		{
-			printf("%ld, ", c);
+			printf(", %ld", c);
 		}
 		else
 		{
 			c = b + c;
 			b = c - b;
-			printf("%ld, ", c);
+			printf(", %ld", c);
 		}
 		a++;
 	}
