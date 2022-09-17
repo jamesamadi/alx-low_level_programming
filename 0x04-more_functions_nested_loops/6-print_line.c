@@ -9,17 +9,18 @@
 
 void print_line(int n)
 {
+	int a = 0;
+
 	if (n > 0)
 	{
-		int a = 0;
-
-		while (a < n)
+		for  (a < n)
 		{
 			_putcha('_');
 			a++;
 		}
-		_putchar('\n');
+		_putchar('_');
 	}
 	else
 		_putchar('\n');
+	return (0);
 }
