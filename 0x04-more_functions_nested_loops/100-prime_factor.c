@@ -21,7 +21,6 @@ int main(void)
 		}
 		b = b + 1;
 	}
-	_putchar('0' + b);
-	_putchar('\n');
+	printf("%ld", c);
 	return (0);
 }
