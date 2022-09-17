@@ -21,12 +21,12 @@ void print_triangle(int size)
 			y++;
 		}
 		y = 0;
-
 		while (y < x)
 		{
 			_putchar('#');
 			y++;
 		}
+		
 		_putchar('\n');
 		x++;
 	}
