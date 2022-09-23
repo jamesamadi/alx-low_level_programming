@@ -23,7 +23,9 @@ int main(void)
 		b = b + a;
 		printf("%c", a);
 	}
+
 	d = 2772 - b;
+
 	printf("%c\n", b);
 	return (0);
 }
