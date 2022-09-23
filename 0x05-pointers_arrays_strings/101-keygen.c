@@ -15,16 +15,16 @@ int main(void)
 	time_t t;
 
 	srand((unsigned int) time(&t));
-	while (b < 1000)
+	while (b < 2772)
 	{
-		a = rand() % 28;
-		if ((b + a) > 1000)
+		a = rand() % 128;
+		if ((b + a) > 2772)
 			break;
 		b = b + a;
 		printf("%c", a);
 	}
 
-	d = 1000 - b;
+	d = 2772 - b;
 
 	printf("%c\n", d);
 	return (0);
