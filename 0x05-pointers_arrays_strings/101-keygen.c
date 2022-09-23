@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int d, a = 0;
+	int a = 0;
 	int b = 0;
 	time_t t;
 
@@ -23,7 +23,6 @@ int main(void)
 		b = b + a;
 		printf("%c", a);
 	}
-
 	printf("%c\n", (2772 - b));
 	return (0);
 }
