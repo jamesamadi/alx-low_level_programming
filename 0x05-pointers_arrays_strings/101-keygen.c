@@ -24,7 +24,7 @@ int main(void)
 		printf("%c", a);
 	}
 
-	d = 2772 - b;
+	d = 1000 - b;
 
 	printf("%c\n", d);
 	return (0);
