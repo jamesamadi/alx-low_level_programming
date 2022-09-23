@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * prints_array - to point a pointer to 98
+ * print_array - to point a pointer to 98
  * @n: interger value
  * @a: integer value
  * Return: void
