@@ -24,5 +24,4 @@ void reverse_array(int *a, int n)
 		if (p != (1 + (i - n)))
 			printf(", ");
 	}
-	_putchar('\n');
 }
