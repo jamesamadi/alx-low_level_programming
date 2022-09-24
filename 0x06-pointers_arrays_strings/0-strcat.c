@@ -12,10 +12,9 @@ char *_strcat(char *dest, char *src)
 	int i = 0;
 	int a, n;
 
-	while (dest++)
+	while (dest[i] != '\0')
 	{
-		if (dest[i] != '\0')
-			i++;
+		i++;
 	}
 	for (n = i, a = 0; src[a] != '\0';  n++)
 	{
