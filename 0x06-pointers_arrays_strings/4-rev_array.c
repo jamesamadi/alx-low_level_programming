@@ -18,10 +18,11 @@ void reverse_array(int *a, int n)
 		i++;
 	}
 	p = i;
-	for (; (i - n) < p; p--)
+	for (; p > (i - n); p--)
 	{
 		_putchar(a[i]);
 		if (p != (1 + (i - n)))
 			printf(", ");
 	}
+	printf("\n");
 }
