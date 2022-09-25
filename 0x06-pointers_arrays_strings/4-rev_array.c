@@ -11,17 +11,17 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = 0, p;
+	int i, temp, p, k;
 
-	while (a[i] != '\0')
+	k = 0;
+	p = n / 2;
+
+	for (i = 0; i < p; i++)
 	{
-		i++;
-	}
-	p = i;
-	for (; p > (i - n); p--)
-	{
-		_putchar(a[i]);
-		if (p != (1 + (i - n)))
-			printf(", ");
+		temp = a[k];
+		a[k] = a[(n - 1)];
+		a[(n - 1)] = temp;
+		k++;
+		p++;
 	}
 }
