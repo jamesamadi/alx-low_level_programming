@@ -17,7 +17,7 @@ char *cap_string(char *s)
 	while (s[j])
 	{
 		for (i = 0; i < 13; i++)
-			if (s[j] >= 'a' && s[j] <= 'z' && s[j - 1] == c[i])
+			if (j == 0 || s[j] >= 'a' && s[j] <= 'z' && s[j - 1] == c[i])
 			{
 				s[j] = s[j] - 32;
 			}
