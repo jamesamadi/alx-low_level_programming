@@ -11,7 +11,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0;
-	int n = 0;
+	unsigned int n = 0;
 
 	while (*s)
 	{
@@ -23,7 +23,9 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 			else if (accept[i + 1] == '\0')
+			{
 				return (n);
+			}
 		}
 		s++;
 	}
