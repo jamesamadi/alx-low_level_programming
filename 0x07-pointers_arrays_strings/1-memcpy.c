@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memset - replacesn numbers of memory set with the set value
- * @s: string or arrays
- * @b: character to replace
+ * _memcpy - replacesn numbers of memory set with the set value
+ * @dest: string or arrays
+ * @src: character to replace
  * @n: number of times to repeat replacement
  * Return: void if empty
  */
