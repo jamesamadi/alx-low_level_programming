@@ -12,19 +12,15 @@ char *_strchr(char *s, char c)
 {
 	int i = 0;
 	int j, n = 0;
-	char *p;
 
 	for (; s[i] != '\0'; i++)
 	{
-		if (s[i] == c)
+		if (s[i] == c && n >= 0)
 		{
 			j = i + n;
-			p[n]  = s[j];
+			return (s + j);
 			n++;
-
-			return (p);
 		}
-		else
-			return (0);
 	}
+			return (0);
 }
