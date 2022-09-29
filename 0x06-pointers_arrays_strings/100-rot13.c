@@ -19,8 +19,10 @@ char *rot13(char *s)
 			if ((s[i] > 'm' && s[i] <= 'z') || (s[i] > 'M' && s[i] <= 'Z'))
 			{
 				s[i] -= 13;
+				break;
 			}
 			s[i] += 13;
+			break;
 		}
 		i++;
 	}
