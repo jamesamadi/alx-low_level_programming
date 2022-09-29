@@ -25,8 +25,4 @@ void print_number(int n)
 		n = j;
 		k = k * 10;
 	}
-	if (n == 0)
-	{
-		_putchar('0');
-	}
 }
