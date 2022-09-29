@@ -18,7 +18,9 @@ void print_number(int n)
 		_putchar('-');
 	}
 	else
+	{
 		m = n;
+	}
 	j = m;
 	k = 1;
 
