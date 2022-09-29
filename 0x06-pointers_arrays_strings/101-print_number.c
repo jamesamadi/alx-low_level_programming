@@ -21,7 +21,7 @@ void print_number(int n)
 	else 
 		m = n;
 
-	for (j = m % k; m / k >= 1;)
+	for (j = m % k; m > 0;)
 	{
 		_putchar(j + '0');
 		m = m / k;
