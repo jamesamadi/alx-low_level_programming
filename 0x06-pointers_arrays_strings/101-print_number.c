@@ -18,11 +18,12 @@ void print_number(int n)
 		n *= -1;
 		_putchar('-');
 	}
+	else 
+		m = n;
 
-	for (j = n % k, i = 0; n > 0; i++)
+	for (j = m % k; m / k >= 1;)
 	{
 		_putchar(j + '0');
-		n = j;
-		k = k * 10;
+		m = m / k;
 	}
 }
