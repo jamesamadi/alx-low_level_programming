@@ -23,7 +23,7 @@ void print_number(int n)
 
 	for (; m > 0;)
 	{
-		j = m % k
+		j = m % k;
 		_putchar(j + '0');
 		m = m / k;
 	}
