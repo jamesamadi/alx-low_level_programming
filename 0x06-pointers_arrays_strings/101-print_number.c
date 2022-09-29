@@ -19,12 +19,17 @@ void print_number(int n)
 	}
 	else
 		m = n;
-	k = 10;
+	j = m;
+	k = 1;
 
-	for (; m > 0;)
+	while (j > 9)
 	{
-		j = m % k;
-		_putchar(j + '0');
-		m = m / k;
+		j = j / 10;
+		k = k * 10;
+	}
+
+	for (; k >= 1; k = k / 10)
+	{
+		_putchar(((m / k) % 10) + '0');
 	}
 }
