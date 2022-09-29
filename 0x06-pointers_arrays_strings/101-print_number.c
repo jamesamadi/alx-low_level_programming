@@ -10,7 +10,7 @@
 
 void print_number(int n)
 {
-	int i, j, k;
+	int m, j, k;
 
 	k = 10;
 	if (n < 0)
