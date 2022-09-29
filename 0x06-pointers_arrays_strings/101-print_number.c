@@ -10,19 +10,20 @@
 
 void print_number(int n)
 {
-	int m, j, k;
+	unsigned int m, j, k;
 
-	k = 10;
 	if (n < 0)
 	{
 		n *= -1;
 		_putchar('-');
 	}
-	else 
+	else
 		m = n;
+	k = 10;
 
-	for (j = m % k; m > 0;)
+	for (; m > 0;)
 	{
+		j = m % k
 		_putchar(j + '0');
 		m = m / k;
 	}
