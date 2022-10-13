@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * infinite_add(char *n1, char *n2, char *r, int size_r) - adds some numbers
+ * print_buffer(char *b, int size) - adds some numbers
  * @b: holds some strings
  * @size: holds some strings
  * Return: void if successful
@@ -29,8 +29,8 @@ void print_buffer(char *b, int size)
 			if ((byte + i) >= size)
 				break;
 			else if (*(b + i + byte) >= 31 && *(b + i + byte) <= 126)
-				printf("%c", *(b+ i + byte));
-			else 
+				printf("%c", *(b + i + byte));
+			else
 			printf(".");
 		}
 		if (byte >= size)
