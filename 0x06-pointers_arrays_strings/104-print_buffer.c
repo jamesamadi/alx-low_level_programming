@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_buffer(char *b, int size) - adds some numbers
+ * print_buffer - adds some numbers
  * @b: holds some strings
  * @size: holds some strings
  * Return: void if successful
