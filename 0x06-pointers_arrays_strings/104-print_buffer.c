@@ -13,11 +13,11 @@ void print_buffer(char *b, int size)
 
 	for (byte = 0; byte < size; byte += 10)
 	{
-		printf("%08x", byte);
+		printf("%08x: ", byte);
 		for (i = 0; i < 10; i++)
 		{
 			if ((byte + i) >= size)
-				printf(" ");
+				printf("  ");
 			else
 				printf("%02x", *(b + i + byte));
 			if ((i % 2) != 0 && i != 0)
